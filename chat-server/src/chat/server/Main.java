@@ -20,7 +20,7 @@ import chat.interfaces.TopicInfo;
 
 /**
  *   This is the admin class that manages the chat server.
- *      
+ *     
  *   @see TopicServerImpl
  *   @author Rickard Öberg (rickard@dreambean.com)
  *   @version $Revision:$
