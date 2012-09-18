@@ -110,7 +110,10 @@ public class Main
       server.createTopic(new TopicInfo("Beginner RMI", "Welcome to the RMI beginner forum"));
       server.createTopic(new TopicInfo("Advanced Java", "Welcome to the RMI advanced forum"));
       server.createTopic(new TopicInfo("Cool tricks in RMI", "Welcome to the forum for cool RMI tricks"));
-   
+//testing.
+      server.createTopic(new TopicInfo("Team Github Users", "Welcome to the forum for cool people that use Github"));
+//end testing
+
       // Register server with naming service
       // new InitialContext().bind("topics",server);
    }
