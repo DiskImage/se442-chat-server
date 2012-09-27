@@ -54,10 +54,10 @@ class Worker
             
             while (true)
             {
-               // Wait 5 seconds
+               // Wait 1 seconds
                try
                {
-                  Thread.sleep(5000);
+                  Thread.sleep(1000);
                } catch (InterruptedException e)
                {
                   // Ignore
